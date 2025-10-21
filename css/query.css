@@ -1,0 +1,63 @@
+@media (max-width: 900px) {
+    .nav-toggle{
+        display: none;
+    }
+    .hero-section{
+        display: block;
+    }
+    .written-words{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 10%;
+    }
+    .video-container{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+    }   
+    .btn-holder p{
+        font-size: clamp(12px, 4dvw, 14px);
+    }
+    .btn-holder{
+        height: 5dvh;
+        width: 75%;
+    }
+    .egg-white{
+        display: block;
+    }
+    .egg-right{
+        top: 0;
+        width: 100%;
+        height: auto;
+        left: 0;
+        margin-left: 2vw;
+    }
+    .inject-holder{
+        top: 40%;
+        width: 100%;
+        height: auto;
+        left: 0;
+
+    }
+    .ick{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #alone:hover{
+        /* color: tomato; */
+        cursor: pointer;
+        
+    }
+    .mode{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 10%;
+        /* position: absolute; */
+        left: 65%;
+        top: 40%;
+    }
+}
